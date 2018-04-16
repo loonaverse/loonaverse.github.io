@@ -65,3 +65,8 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+#stream {
+    float: right;
+    position: absolute;
+}

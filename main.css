@@ -60,6 +60,11 @@ li a:hover {
     background-color: #111;
 }
 
+#stream {
+    position: absolute;
+    left: 93%; 
+}
+
 /*Table*/
 table.member {
 	width:auto;
@@ -156,7 +161,8 @@ a.namepre:hover {
 #gowon:hover {color:#00C39F; transition: .4s ease}
 #olivia:hover {color:#636469; transition: .4 ease; text-shadow:-2px -2px 1px white}
 
-#ot:hover {color:#a3e1df; transition: .4s ease; padding-top:2cm; padding-bottom:2cm;} /*ot = 1/3*/
+#ot {font-family:; font-size: 38px; color:#FFFFFF; transition: .4s ease; padding-top:2cm; padding-bottom:1.4cm}
+#ot:hover {color:#a3e1df; transition: .4s ease} /*ot = 1/3*/
 #oec {font-family: "Ano Half"; font-size: 38px; color:#FFFFFF; transition: .4s ease; padding-top:1.4cm; padding-bottom:1.4cm}
 #oec:hover {color:#850078; font-family: "Ano Half"; transition: .4s ease}
 #?:hover {color:#unknown; transition: .4s ease}
