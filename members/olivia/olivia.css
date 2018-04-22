@@ -25,14 +25,6 @@ title {
 	width:100%;
 	text-align:center;
  }
- 
- table.content {
-	text-align:left; 
-	width:auto;
-	margin-left:auto; margin-right:auto;
-}
-	
-td.summary {padding-left:50px;}
 
 /*NavBar*/
 ul {
@@ -64,9 +56,16 @@ li a {
 li a:hover {
     background-color: #111;
 }
+ 
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    align-content: center;
+    padding-top: 1cm;
+}
 
-#stream {
-    position: absolute;
-    float: right;
-    left: 93%; 
+.summary {
+    text-align: left;
+    padding-top: ;
 }

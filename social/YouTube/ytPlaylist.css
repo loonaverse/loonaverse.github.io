@@ -1,6 +1,36 @@
 @charset "UTF-8";
 /* CSS Document */
+@font-face {
+ font-family: "Roboto";
+    src: url(https://fonts.googleapis.com/css?family=Roboto)	
+}
 
 body {
 	background-color: rgba(0,0,0,0.80)
+}
+
+td.title {
+    display: block;
+    align-self: center;
+    margin-top: 0.7cm;
+    margin-bottom: 0.7cm;
+    max-height: 4rem;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+#own {
+    display: block;
+    font-size: 15px;
+    color: darkgray;
+}
+
+#listno {
+    display: block;
+    font-size: 15px;
+    color: darkgray;
+    margin-right: 10px;
 }
