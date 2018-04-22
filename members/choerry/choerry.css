@@ -66,8 +66,15 @@ li a:hover {
     background-color: #111;
 }
 
-#stream {
-    position: absolute;
-    float: right;
-    left: 93%; 
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    align-content: center;
+    padding-top: 1cm;
+}
+
+.summary {
+    text-align: left;
+    padding-top: ;
 }

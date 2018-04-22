@@ -26,15 +26,6 @@ title {
 	text-align:center;
  }
  
- table.content {
-	text-align:left; 
-	width:auto;
-	margin-left:auto; margin-right:auto;
-}
-	
-td.summary {padding-left:50px;}
-td.embed {padding-top:1.5cm; padding-bottom:1.5cm}
-
 /*NavBar*/
 ul {
     list-style-type: none;
@@ -66,8 +57,15 @@ li a:hover {
     background-color: #111;
 }
 
-#stream {
-    position: absolute;
-    float: right;
-    left: 93%; 
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    align-content: center;
+    padding-top: 1cm;
+}
+
+.summary {
+    text-align: left;
+    padding-top: ;
 }
