@@ -68,5 +68,5 @@ li a:hover {
 .summary {
     text-align: left;
     padding-top: ;
-    text-align: center;
+    align-self: center;
 }
