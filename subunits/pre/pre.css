@@ -11,7 +11,7 @@ font-family: "TingTong";
 	src:url(../../fonts/TingTong.ttf)format("Truetype")
 }
 
-#font {font-family: "TingTong"; color:#0F93F5; font-size:30px;}
+#font {font-family: "Ano Half"; color:#FFD000; font-size:30px;}
 
 body.overall {
 	xbackground: url(../img/heejin.jpg) no-repeat fixed;
