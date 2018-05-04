@@ -44,7 +44,7 @@ li {
 	padding: 15px;
 }
 
-li.active { color:#0F93F5; }
+li.active { color:#FFD300; }
 
 li a {
     display: block;
@@ -81,7 +81,7 @@ li {
 	padding: 15px;
 }
 
-li.active { color:#00C39F; }
+li.active { color:#FFD000; }
 
 li a {
     display: block;
@@ -106,4 +106,9 @@ li a:hover {
 .summary {
     text-align: left;
     padding-top: ;
+    align-self: center;
+}
+
+#stream {
+    float: right;
 }
