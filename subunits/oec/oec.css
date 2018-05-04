@@ -71,3 +71,7 @@ li a:hover {
     padding-top: ;
     align-self: center;
 }
+
+#stream {
+    float: right;
+}
