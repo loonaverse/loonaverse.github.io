@@ -18,6 +18,7 @@ body.overall {
 	xbackground-repeat:no-repeat;
 	font-family: "Ano Half";
 	text-align:center;
+    margin: 0; padding: 0;
 }
 
 title { 
@@ -78,4 +79,8 @@ li a:hover {
     text-align: left;
     padding-top:;
     align-self: center;
+}
+
+#stream {
+    float: right;
 }

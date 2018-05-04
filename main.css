@@ -20,6 +20,7 @@ body.absolute {
 	xbackground-repeat:no-repeat;
 	font-family: "Ano Half";
 	text-align:center;
+    margin: 0; padding: 0;
 }
 
 title { 
@@ -61,8 +62,7 @@ li a:hover {
 }
 
 #stream {
-    position: absolute;
-    left: 93%; 
+    float: right;
 }
 
 /*Table*/
