@@ -11,11 +11,13 @@ font-family: "TingTong";
 	src:url(../../fonts/TingTong.ttf)format("Truetype")
 }
 
-#font {font-family: "TingTong"; color:#FFCF00; font-size:30px;}
+#font {font-family: "TingTong"; color:#FFCF00; font-size:30px; 
+    -webkit-text-stroke: 0.5px white;
+}
 
 body.overall {
-	xbackground: url(../img/heejin.jpg) no-repeat fixed;
-	xbackground-repeat:no-repeat;
+	background: rgba(255, 207, 0, 0.4) url(cat.png) no-repeat center fixed;
+    background-size: contain; 
 	font-family: "Ano Half";
 	text-align:center;
     margin: 0; padding: 0;
