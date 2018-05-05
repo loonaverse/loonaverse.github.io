@@ -1,0 +1,21 @@
+body {
+    background-color: rgba(0,0,0,0.80);
+}
+
+
+.content {
+
+}
+
+#listno {
+    display: block;
+    font-size: 15px;
+    color: darkgray;
+    margin-right: 10px;
+}
+
+#own {
+    display: block;
+    font-size: 15px;
+    color: darkgray;
+}
