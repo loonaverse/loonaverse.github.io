@@ -1,21 +1,23 @@
 @charset "UTF-8";
 /* CSS Document */
-
 @font-face {
  font-family: "Ano Half";
-    src: url(../../fonts/ano.ttf)format("truetype")	
+    src: url(fonts/ano.ttf)format("truetype")	
 }
 
 @font-face {
 font-family: "TingTong";
-	src:url(../../fonts/TingTong.ttf)format("Truetype")
+	src:url(fonts/TingTong.ttf)
 }
 
-#font {font-family: "TingTong"; color:#FF94B0; font-size:30px;}
+@font-face {
+	font-family: "Starlight";
+	src:url(fonts/AtlantideStarlight.ttf);
+	}
 
-body.overall {
-	background: rgba(255, 148, 176, 0.4) url(deer.png) no-repeat center fixed;
-    background-size: contain;
+body.absolute {
+	xbackground-image:url(img/loona.png);
+	xbackground-repeat:no-repeat;
 	font-family: "Ano Half";
 	text-align:center;
     margin: 0; padding: 0;
@@ -26,6 +28,7 @@ title {
 	width:100%;
 	text-align:center;
  }
+ 
 
 /*NavBar*/
 .navbar {
@@ -44,7 +47,7 @@ li {
 	padding: 15px;
 }
 
-li.active { color:#FF94B0; }
+li.active { color:#FF00AC; }
 
 li a {
     display: block;
@@ -58,21 +61,12 @@ li a:hover {
     background-color: #111;
 }
 
-.content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    align-content: center;
-    padding: 1cm;
-}
-
-.summary {
-    text-align: left;
-    padding: 1cm;
-    align-self: center;
-    background: rgba(255,255,255, 0.8)
-}
-
 #stream {
     float: right;
+}
+
+.container {
+    padding-left: 4cm; padding-right: 4cm;
+    text-align: center;
+    font-size: 20px;
 }
