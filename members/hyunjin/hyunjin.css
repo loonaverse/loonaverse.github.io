@@ -11,13 +11,11 @@ font-family: "TingTong";
 	src:url(../../fonts/TingTong.ttf)format("Truetype")
 }
 
-#font {font-family: "TingTong"; color:#FFCF00; font-size:30px; 
-    -webkit-text-stroke: 0.5px white;
-}
+#font {font-family: "TingTong"; color:#FFCF00; font-size:30px;}
 
 body.overall {
 	background: rgba(255, 207, 0, 0.4) url(cat.png) no-repeat center fixed;
-    background-size: contain; 
+    background-size: contain;
 	font-family: "Ano Half";
 	text-align:center;
     margin: 0; padding: 0;
@@ -30,7 +28,7 @@ title {
  }
 
 /*NavBar*/
-ul {
+.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -65,13 +63,14 @@ li a:hover {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     align-content: center;
-    padding-top: 1cm;
+    padding: 1cm;
 }
 
 .summary {
     text-align: left;
-    padding-top:;
+    padding: 1cm;
     align-self: center;
+    background: rgba(255,255,255, 0.8)
 }
 
 #stream {

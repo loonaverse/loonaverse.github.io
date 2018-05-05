@@ -14,8 +14,8 @@ font-family: "TingTong";
 #font {font-family: "TingTong"; color:#0F93F5; font-size:30px;}
 
 body.overall {
-	xbackground: url(../img/heejin.jpg) no-repeat fixed;
-	xbackground-repeat:no-repeat;
+	background: rgba(15, 147, 245, 0.4) url(fish.png) no-repeat center fixed;
+    background-size: contain;
 	font-family: "Ano Half";
 	text-align:center;
     margin: 0; padding: 0;
@@ -28,7 +28,7 @@ title {
  }
 
 /*NavBar*/
-ul {
+.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -63,12 +63,14 @@ li a:hover {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     align-content: center;
-    padding-top: 1cm;
+    padding: 1cm;
 }
 
 .summary {
     text-align: left;
-    padding-top: ;
+    padding: 1cm;
+    align-self: center;
+    background: rgba(255,255,255, 0.8)
 }
 
 #stream {
