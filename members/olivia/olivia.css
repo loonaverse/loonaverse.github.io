@@ -77,13 +77,9 @@ li a:hover {
     float: right;
 }
 
-@media (max-width: 10800px) {
+@media (max-width: 1080px) {
     .content {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-    }
-    .summary {
-        margin-left: 20%;
-        margin-right: 20%;
     }
 }
