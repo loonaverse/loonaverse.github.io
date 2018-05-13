@@ -11,10 +11,7 @@ font-family: "TingTong";
 	src:url(../../fonts/TingTong.ttf)format("Truetype")
 }
 
-#font {font-family: "TingTong"; color:#636469; font-size:30px;}
-
 body.overall {
-	background: rgba(165,171,194, 0.5) url(wolf.png) no-repeat center fixed;
     background-size: contain;
 	font-family: "Ano Half";
 	text-align:center;
@@ -44,7 +41,7 @@ li {
 	padding: 15px;
 }
 
-li.active { color:#A5ABC2; }
+li.active { color:#FF00AC; }
 
 li a {
     display: block;
@@ -72,16 +69,3 @@ li a:hover {
     align-self: center;
     background: rgba(255,255,255, 0.8)
 }
-
-#stream {
-    float: right;
-}
-
-/*
-@media (max-width: 1080px) {
-    .content {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-*/
