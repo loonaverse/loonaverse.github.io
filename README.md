@@ -31,4 +31,5 @@ P.S: Currently best viewed on Desktop.
  - skullface#0420
  - Energy#4460
  - help#7759
+ - curios#7841
  - LOOΠΔCORD

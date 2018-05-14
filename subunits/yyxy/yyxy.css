@@ -14,7 +14,7 @@ font-family: "TingTong";
 #font {font-family: "Ano Half"; color:#FFFFFF; font-size:30px;}
 
 body.overall {
-	background: rgba() url() no-repeat center fixed;
+	background: rgba(159, 223, 159, 0.5) url() no-repeat center fixed;
     background-size: contain;
 	font-family: "Ano Half";
 	text-align:center;
