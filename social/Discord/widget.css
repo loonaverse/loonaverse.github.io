@@ -1,0 +1,50 @@
+body {
+    background-color: #1e2124;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #7289da;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+}
+
+#logo {
+    display: inline-block;
+    background-image: url(https://discordapp.com/assets/35d75407bd75d70e84e945c9f879bab8.svg) 50% no-repeat;
+    background-size: 124px 34px;
+    height: 34px; width: 124px;
+    transition: opacity .25s ease-out;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr 9fr 1fr;
+    grid-template-rows: auto;
+    padding: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.name {
+    align-self: center;
+    padding-left: 5px;
+}
+
+.guild_logo {
+    display: block;
+    margin-top: 10px;
+    border-radius: 90px;
+    background-size: 50px; height: 50px; width: 50px;
+    background-image: no-repeat;
+}
+
+.join {
+    display: block;
+    align-self: center;
+    background-image: no-repeat;
+    background-size: 73px 35px; height: 35px; width: 73px;
+    border-radius: 4px;
+}
