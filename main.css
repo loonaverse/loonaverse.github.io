@@ -29,6 +29,14 @@ title {
 	text-align:center;
  }
  
+.subject {
+    font-size: 2rem;
+}
+
+.wxrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 /*NavBar*/
 .navbar {
