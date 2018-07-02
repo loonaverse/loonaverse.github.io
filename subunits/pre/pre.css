@@ -12,6 +12,7 @@ font-family: "TingTong";
 }
 
 #font {font-family: "Ano Half"; color:#FFD000; font-size:30px;}
+#liu {font-family: "TingTong"; color: #8f264b; font-size:60px;}
 
 body.overall {
 	background: rgba(255, 208, 0, 0.5) url(mobius.png) no-repeat center fixed;
