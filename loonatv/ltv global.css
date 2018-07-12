@@ -3,7 +3,7 @@
 
 @font-face {
  font-family: "Ano Half";
-    src: url(../../fonts/ano.ttf)format("truetype")	
+    src: url(../../fonts/ano2.ttf)format("truetype")	
 }
 
 @font-face {
@@ -11,13 +11,12 @@ font-family: "TingTong";
 	src:url(../../fonts/TingTong.ttf)format("Truetype")
 }
 
-#font {font-family: "TingTong"; color:#FF008B; font-size:30px;}
+#font {font-family: "TingTong"; font-size:30px;}
 
 body.overall {
-	xbackground: rgba(255, 0, 139, 0.5) url(../../../img/background/rabbit.png) no-repeat center fixed;
     background-size: contain;
-	font-family: "Ano Half";
-	text-align:center;
+	font-family: "Ano Half", "Arial";
+	text-align: center;
     margin: 0; padding: 0;
 }
 
@@ -43,8 +42,6 @@ li {
 	color: #fff;
 	padding: 15px;
 }
-
-li.active { color:#FF00AC; }
 
 li a {
     display: block;

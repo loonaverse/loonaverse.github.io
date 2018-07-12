@@ -1,0 +1,7 @@
+#font {color:#00C39F}
+
+body.overall {
+    background: rgba(0, 195, 159, 0.8) url(../../../img/background/butterfly.png) no-repeat center fixed;
+}
+
+li.active { color:#00C39F; }

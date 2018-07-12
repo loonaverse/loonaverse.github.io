@@ -1,0 +1,7 @@
+#font {color:#FF8675}
+
+body.overall {
+    background: rgba(255, 134, 117, 0.5)  url(../../../img/background/penguin.png) no-repeat center fixed;
+}
+
+li.active { color:#FF8675; }
