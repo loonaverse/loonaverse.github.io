@@ -1,0 +1,7 @@
+#font {color:#0F93F5}
+
+body.overall {
+    background: rgba(15, 147, 245, 0.4) url(../../../img/background/fish.png) no-repeat center fixed;
+}
+
+li.active { color:#0F93F5; }

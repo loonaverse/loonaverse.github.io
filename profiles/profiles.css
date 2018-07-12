@@ -3,7 +3,7 @@
 
 @font-face {
  font-family: "Ano Half";
-    src: url(../../fonts/ano.ttf)format("truetype")	
+    src: url(../../fonts/ano2.ttf)format("truetype")	
 }
 
 @font-face {
@@ -11,13 +11,12 @@ font-family: "TingTong";
 	src:url(../../fonts/TingTong.ttf)format("Truetype")
 }
 
-#font {font-family: "TingTong"; color:#FF008B; font-size:30px;}
+#font {font-family: "TingTong"; font-size:30px;}
 
 body.overall {
-	xbackground: rgba(255, 0, 139, 0.5) url(../../../img/background/rabbit.png) no-repeat center fixed;
     background-size: contain;
-	font-family: "Ano Half";
-	text-align:center;
+	font-family: "Ano Half", "Arial";
+	text-align: center;
     margin: 0; padding: 0;
 }
 
@@ -44,8 +43,6 @@ li {
 	padding: 15px;
 }
 
-li.active { color:#FF00AC; }
-
 li a {
     display: block;
     color: white;
@@ -58,7 +55,7 @@ li a:hover {
     background-color: #111;
 }
 
-.content {
+.media {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
@@ -66,7 +63,7 @@ li a:hover {
     padding: 1cm;
 }
 
-.summary {
+.content {
     text-align: left;
     padding: 1cm;
     align-self: center;
@@ -76,3 +73,9 @@ li a:hover {
 #stream {
     float: right;
 }
+
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-cpu2{border-color:#000000;vertical-align:top}
+.tg .tg-wreh{font-weight:bold;border-color:#000000;vertical-align:top}

@@ -1,0 +1,9 @@
+#font {font-family: "Ano Half"; color:#FFD000; font-size:30px;}
+#unl {font-family: "TingTong"; color: #f65787; font-size:60px;}
+#liu {font-family: "TingTong"; color: #8f264b; font-size:60px;}
+
+body.overall {
+	background: rgba(255, 208, 0, 0.5) url(../../../img/background/mobius.png) no-repeat center fixed;
+}
+
+li.active { color:#FFD300; }

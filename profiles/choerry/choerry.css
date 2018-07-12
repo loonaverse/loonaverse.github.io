@@ -1,0 +1,7 @@
+#font {color:#BF45F0}
+
+body.overall {
+    background: rgba(191, 69, 240, 0.5) url(../../../img/background/bat.png) no-repeat center fixed;
+}
+
+li.active { color:#BF45F0; }

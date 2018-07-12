@@ -1,0 +1,7 @@
+#font {font-family: "Ano Half"; color:#850078; font-size:30px;}
+
+body.overall {
+	background: rgba(133, 0, 120, 0.5) url(../../../img/background/oec.png) no-repeat center fixed;
+}
+
+li.active { color:#850078; }
