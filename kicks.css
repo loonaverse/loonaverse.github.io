@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+ font-family: "Ano Half";
+    src: url(../../fonts/ano.ttf)format("truetype")	
+}
+
+@font-face {
+font-family: "TingTong";
+	src:url(../../fonts/TingTong.ttf)format("Truetype")
+}
+
+#font {font-family: "TingTong"; color:#FF008B; font-size:30px;}
+
+body.overall {
+	xbackground: rgba(255, 0, 139, 0.5) url(../../../img/background/rabbit.png) no-repeat center fixed;
+    background-size: contain;
+	font-family: "Ano Half";
+	text-align:center;
+    margin: 0; padding: 0;
+}
+
+title { 
+	margin-top:50px;
+	width:100%;
+	text-align:center;
+ }
+
+/*NavBar*/
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+	width: 100%;
+	text-align:center;
+}
+
+li {
+    float: left;
+	color: #fff;
+	padding: 15px;
+}
+
+li.active { color:#FF00AC; }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    align-content: center;
+    padding: 1cm;
+}
+
+.summary {
+    text-align: left;
+    padding: 1cm;
+    align-self: center;
+    background: rgba(255,255,255, 0.8)
+}
+
+#stream {
+    float: right;
+}

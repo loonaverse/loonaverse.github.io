@@ -1,0 +1,7 @@
+#font {color:#636469}
+
+body.overall {
+    background: rgba(165,171,194, 0.5) url(../../../img/background/wolf.png) no-repeat center fixed;
+}
+
+li.active { color:#636469; }
