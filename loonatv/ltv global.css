@@ -70,6 +70,34 @@ li a:hover {
     background: rgba(255,255,255, 0.8)
 }
 
+.media {
+    display: grid;
+    align-self: center;
+}
+
 #stream {
     float: right;
+}
+
+.iframe-container{
+  position: relative;
+  align-self: center;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1048px) {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr
+    }
 }

@@ -3,7 +3,15 @@
 #liu {font-family: "TingTong"; color: #8f264b; font-size:60px;}
 
 body.overall {
-	background: rgba(255, 208, 0, 0.5) url(../../../img/background/mobius.png) no-repeat center fixed;
+	background: rgba(255, 208, 0, 0.5) url(../../../img/background/mobius4.png) no-repeat center fixed;
+}
+
+body.unl {
+    background: rgba(246, 87, 135, 0.5) url(../../../img/background/mobius4.png) no-repeat center fixed
+}
+
+body.liu {
+    background: rgba(143, 38, 75, 0.5) url(../../../img/background/mobius4.png) no-repeat center fixed
 }
 
 li.active { color:#FFD300; }
