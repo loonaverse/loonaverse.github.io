@@ -1,0 +1,7 @@
+#font {font-family: "Ano Half"; color:#FFFFFF; font-size:30px;}
+
+body.overall {
+	background: rgba(0, 0, 0, 0.5) url(++logo.png) no-repeat center fixed;
+}
+
+li.active { color:#FFD300; }
