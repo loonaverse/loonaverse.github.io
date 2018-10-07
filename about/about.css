@@ -7,12 +7,12 @@
 
 @font-face {
 font-family: "TingTong";
-	src:url(fonts/TingTong.ttf)
+	src:url(../fonts/TingTong.ttf)
 }
 
 @font-face {
 	font-family: "Starlight";
-	src:url(fonts/AtlantideStarlight.ttf);
+	src:url(../fonts/AtlantideStarlight.ttf);
 	}
 
 body.absolute {
