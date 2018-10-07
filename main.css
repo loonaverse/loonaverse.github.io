@@ -164,12 +164,29 @@ a.namepre:hover {
 
 .footer {
 	display:block;
-	background-color:black;
+	background-color: black;
 	color:white;	
 	width: 100%;
 	height:2cm;
 	margin-top:2cm;
 	text-align:left;
+}
+
+.current {
+    display: block;
+    background-image: url(img/menu/+plus.jpg);
+    width: 610px;
+    margin: auto;
+    line-height: 358px;
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+}
+
+.current:hover {
+    background-color: rgba(0,0,0,0.30);
+    transition: 0.4 ease;
 }
 
 #heejin:hover {color:#FF008B; transition: .4s ease}
@@ -191,3 +208,13 @@ a.namepre:hover {
 #oec:hover {color:#850078; font-family: "Ano Half"; transition: .4s ease}
 #yyxy:hover {color:#9FDF9F; transition: .4s ease}
 #pre:hover {color:white; font-family: "Ano Half"; transition: .4s ease}
+
+#currentName {
+    text-decoration: none;
+    color: white;
+}
+
+#currentName:hover {
+    background-color: rgba(0,0,0,0.30);
+    transition: 0.4 ease;
+}

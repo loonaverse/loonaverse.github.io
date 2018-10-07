@@ -1,7 +1,7 @@
 #font {font-family: "Ano Half"; color:#FFFFFF; font-size:30px;}
 
 body.overall {
-	background: rgba(0, 0, 0, 0) url(++logo.png) no-repeat center fixed;
+	background: rgba(0, 0, 0, 0) url(favorite.jpg) no-repeat center fixed;
 }
 
-li.active { color:#FFD300; }
+li.active { color:#000000; background-color: white; }
