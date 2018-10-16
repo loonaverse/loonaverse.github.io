@@ -144,7 +144,7 @@ li a:hover {
         align-self: center;
         width: 100%;
         margin-bottom: 5.25%; 
-        height: 0;
+        xheight: 0;
     }
     .youtube iframe{
         position: absolute;
