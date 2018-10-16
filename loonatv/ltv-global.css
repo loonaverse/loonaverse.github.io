@@ -93,7 +93,7 @@ li a:hover {
     width: 480px;
     height: 360px;
     left: 0;
-    top: -45px;
+    top: -17%;
 }
 .youtube .play-button {
     width: 90px;
@@ -142,15 +142,23 @@ li a:hover {
     .youtube{
         position: relative;
         align-self: center;
+        margin-bottom: 5.25%;
         width: 100%;
-        margin-bottom: 5.25%; 
-        height: 0;
+        max-width: 360px;
+        max-height: 70%;
+    }
+    
+    .youtube img{
+        width: 100%;
+        max-height: 272px;
     }
     .youtube iframe{
         position: absolute;
         top:0;
         left: 0;
         width: 100%;
+        max-width: 480px;
         height: 100%;
+        max-height: 272px;
     }
 }
