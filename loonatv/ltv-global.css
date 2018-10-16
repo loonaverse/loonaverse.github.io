@@ -151,6 +151,7 @@ li a:hover {
     .youtube img{
         width: 100%;
         max-height: 272px;
+        margin-bottom: 5.25%; 
     }
     .youtube iframe{
         position: absolute;
