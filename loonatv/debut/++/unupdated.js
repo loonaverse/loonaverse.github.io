@@ -17,7 +17,7 @@
     const number = tag.id.replace(/\D/g, '')
 
     // Keep only tags with a number higher than 5 and less than 10
-    return 411 <= number && number <= 437
+    return 411 <= number && number <= 434
 
   })
 
