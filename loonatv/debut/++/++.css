@@ -6,6 +6,7 @@ body.overall {
 
 li.active { color:#000000; background-color: white; }
 
+/*
 .youtube {
     display: table-cell;
     vertical-align: middle;
@@ -59,4 +60,4 @@ li.active { color:#000000; background-color: white; }
     height: 272px;
     top: 0;
     left: 0;
-}
+}*/
