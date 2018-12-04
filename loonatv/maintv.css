@@ -174,14 +174,16 @@ a.namepre:hover {
 
 .current {
     display: block;
-    background-image: url(../img/menu/+plus.jpg);
     width: 610px;
     margin: auto;
-    line-height: 358px;
+    line-height: 158px;
     font-size: 50px;
     text-decoration: none;
     color: white;
     overflow: hidden;
+    margin-top: 1cm; 
+    background-color:rgba(0,0,0,0.00);
+    transition: 0.4s ease;
 }
 
 .current:hover {
