@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    background-color: #ff00aa;
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.data {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 1fr 1fr;
+    text-align: center;
+}
+
+.data > div:nth-child(n) {
+    display: inline;
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.heading {
+    color: black
+}
+
+/*
+.title {
+    display: inline;
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.member {
+    display: inline;
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.views {
+    display: inline;
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.likes {
+    display: inline;
+    padding: 2px;
+    border: 1px solid black;
+}
+
+*/
