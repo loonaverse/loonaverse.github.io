@@ -12,7 +12,7 @@ $(document).ready(
                     var myObj = JSON.parse(this.responseText);
 
                     let body = `<div class="content" id="ep${myObj.id}">   
-                            <div class="youtube" data-embed="${myObj.videoid}"><div class="play-button"></div></div>
+                            <div class="youtube" data-embed="${myObj.videoId}"><div class="play-button"></div></div>
                             <div class="summary">
                                 <b><u>Episode:</u> ${myObj.title}</b>
                                 <br><b><u>Date:</u></b> ${myObj.date}
