@@ -1,6 +1,6 @@
 $(document).ready(
     function() {
-
+        console.log("Container Loaded")
         for(i=19; i<=38; i++) {
             let api = `epFiles/ep${i}.json`;
             var xmlhttp = new XMLHttpRequest();
