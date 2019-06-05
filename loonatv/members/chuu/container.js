@@ -34,5 +34,11 @@ $(document).ready(
             xmlhttp.open("GET", api, true);
             xmlhttp.send();
         }
+
+        setTimeout(function() {
+            var script = document.createElement('script');
+            script.src = "../../lazyload.js";
+            document.getElementsByTagName('body')[0].appendChild(script);
+        }, 100)
     }
 );

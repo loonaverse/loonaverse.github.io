@@ -4,7 +4,7 @@ $(document).ready(
         for(i=19; i<=38; i++) {
             let api = `epFiles/ep${i}.json`;
             var xmlhttp = new XMLHttpRequest();
-            let container = document.getElementById("container");
+            // let container = document.getElementById("container");
 
 
             xmlhttp.onreadystatechange = function() {
@@ -34,5 +34,11 @@ $(document).ready(
             xmlhttp.open("GET", api, true);
             xmlhttp.send();
         }
+
+        setTimeout(function() {
+            var script = document.createElement('script');
+            script.src = "../../lazyload.js";
+            document.getElementsByTagName('body')[0].appendChild(script);
+        }, 100)
     }
 );
