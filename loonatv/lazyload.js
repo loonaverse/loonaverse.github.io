@@ -1,4 +1,4 @@
-( function() {
+$(document).ready( function() {
     console.log("JS loaded!");
     var youtube = document.querySelectorAll( ".youtube" );
     

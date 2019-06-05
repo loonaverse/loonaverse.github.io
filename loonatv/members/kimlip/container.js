@@ -1,4 +1,4 @@
-$(document).ready(
+(
     function() {
         console.log("Container loaded!")
         for(i=123; i<=142; i++) {
