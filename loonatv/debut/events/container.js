@@ -17,7 +17,7 @@ $(document).ready(
                             <div class="summary">
                                 <b><u>Episode:</u> ${myObj.title}</b>
                                 <br><b><u>Date:</u></b> ${myObj.date}
-                                <br><u>Era:</u> HeeJin Solo
+                                <br><u>Era:</u> ${myObj.era}
                                 <br><u>Members:</u> ${myObj.members}
                                 <br><u>Blurred Girls:</u> ${myObj.blurred}
                                 <br><u>Songs:</u> ${myObj.songs}
