@@ -7,7 +7,7 @@ body.overall {
     align-items: center;
 }
 
-li.active { color:#000000; background-color: white; }
+li.active { color:#c1e2f2; background-color: black; }
 
 #bgVideo {
     position: fixed;
@@ -89,11 +89,6 @@ li.active { color:#000000; background-color: white; }
 }*/
 
 @media screen and (max-width: 1048px) {
-    body.overall {
-        xbackground: rgba(0, 0, 0, 0) url(mobile_bg.jpg) no-repeat center fixed;
-        xbackground-size: cover;
-    }
-
     #bgVideo {
         display: none;
     }
