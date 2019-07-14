@@ -11,7 +11,7 @@ font-family: "TingTong";
 	src:url(../../fonts/TingTong.ttf)format("Truetype")
 }
 
-#font {font-family: "TingTong"; font-size:30px;}
+.profileCard {font-family: "TingTong"; font-size:50px;}
 
 body.overall {
     background-size: contain;
@@ -73,3 +73,29 @@ li a:hover {
 #stream {
     float: right;
 }
+
+#heejin {background-image: url(./data/img/heejin.webp)}
+#hyunjin {background-image: url(./data/img/hyunjin.webp)}
+#haseul {background-image: url(./data/img/haseul.webp)}
+#yeojin {background-image: url(./data/img/yeojin.webp)}
+#vivi {background-image: url(./data/img/vivi.webp)}
+#kimlip {background-image: url(./data/img/kimlip.webp)}
+#jinsoul {background-image: url(./data/img/jinsoul.webp)}
+#choerry {background-image: url(./data/img/choerry.webp)}
+#yves {background-image: url(./data/img/yves.webp)}
+#chuu {background-image: url(./data/img/chuu.webp)}
+#gowon {background-image: url(./data/img/gowon.webp)}
+#olivia {background-image: url(./data/img/olivia.webp)}
+
+#heejin:hover {color:#FF008B; transition: .4s ease}
+#hyunjin:hover {color:#FFCF00; transition: .4s ease}
+#haseul:hover {color:#00B053; transition: .4s ease}
+#yeojin:hover {color:#FF5F00; transition: .4s ease}
+#vivi:hover {color:#FF94B0; transition: .4s ease}
+#kimlip:hover {color:#FF002C; transition: .4s ease}
+#jinsoul:hover {color:#0F93F5; transition: .4s ease}
+#choerry:hover {color:#BF45F0; transition: .4s ease}
+#yves:hover {color:#9C0041; transition: .4s ease}
+#chuu:hover {color:#FF8675; transition: .4s ease}
+#gowon:hover {color:#00C39F; transition: .4s ease}
+#olivia:hover {color:#A5ABC2; transition: .4 ease}

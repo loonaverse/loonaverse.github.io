@@ -1,6 +1,7 @@
 {
+    "displayText": "black",
     "stage": "HeeJin",
-    "name": "Jeon Heejin",
+    "name": "Jeon HeeJin",
     "reveal": "September 26, 2016",
     "debut": "October 05, 2016",
     "bday": "October 19, 2000",
@@ -9,7 +10,8 @@
 
     "traineeDuration": "?",
     "nextGirlImg": "--",
-    "img": "--",
+    "img": "https://i.imgur.com/PaINZwr.jpg",
+    "sign": "https://vignette.wikia.nocookie.net/loonatheworld/images/4/48/HeeJin_signature.png",
 
     "memNo": "First",
     "animal": "🐇",
@@ -20,14 +22,14 @@
     },
     "given": "Heekkie, Heejumeoni, Heejumma",
 
-    "hashtags": "#Yellow #Aeong",
-    "teamPostion": "Prankster, Aeongie",
-    "charmPoint": "Big hands, big eyes, misty voice",
+    "hashtags": "#Jeon #Hwi #Hyeol",
+    "teamPostion": "Clumsy-hands, Organized one, Cure-all hands",
+    "charmPoint": "Thick eyebrows, Penguin-like Lips",
 
-    "playlist": "-Fairy Tale\n-Starlight\n-rendezvous 18.6y",
-    "goals": "Having a concert 10 years from now, founding a small theater named 'Jo HaSeul'",
+    "playlist": "-Heart Breaker - Justin Bieber<br>- Already One Year - Brown Eyes",
+    "goals": "Dominating the Universe (+ Koduko no Gourmet)",
 
-    "msgToOrbit": "Orbits! I'm so emotional to think that it has already been a year. A lot of things have happened while the 1st generation Orbits spent a year with us and there were many happy and good moments! We did three concerts and two promotions and albums, right!? Thank you so much for being with us until now, Orbits. You are so precious and I'm so grateful, it can't be expressed in words. You know how I feel, right!? Thank you.",
+    "msgToOrbit": "Hello, Orbits my love! :) It’s already been a year. It's such a happy day but I feel sorry that there's not much I've done for you for the past year. Thank you so much for staying with me, and I love you with all my heart. LOONA could only exist because of Orbits last year!",
 
     "mv": [
         { "record": ["2016", "ViViD", "HeeJin", "Main", "-FCYE87P5L0"] },
