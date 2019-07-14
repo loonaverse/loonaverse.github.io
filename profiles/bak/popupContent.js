@@ -1,7 +1,9 @@
-$(document).ready(
-    function() {
+( function() {
+    
+    $(document).on('click', '.profileCard' ,(event) => {
         const xmlhttp = new XMLHttpRequest();
-        let api = "./haseul.json"
+        let api = `./data/hyunjin.json`
+        console.log($(this).attr('id'));
 
         xmlhttp.onreadystatechange = function() {
             if(this.readyState == 4 && this.status == 200) {
@@ -76,8 +78,7 @@ $(document).ready(
 
                     }
                     table_wd+='</tbody></table>';
-                    //$('#pop-content').append(table_wd);
-                }
+                } else { table_wd = "" }
                 //WD END
 
                 //TV Appearances Table
@@ -110,7 +111,7 @@ $(document).ready(
                     }
                     table_tv+='</tbody></table>';
                     //$('#pop-content').append(table_tv);
-                }
+                } else { table_tv = "" }
                 //TVA END
 
                 let prof_doc = `
@@ -146,7 +147,7 @@ $(document).ready(
                 ${table_tv}
                 `
 
-                $('#pop-content').append(prof_doc);
+                $('#pop-content').html(prof_doc);
 
                 //console.log("OWO!")
             }
@@ -154,4 +155,4 @@ $(document).ready(
         xmlhttp.open("GET", api, true);
         xmlhttp.send();
     }
-)
+    )});

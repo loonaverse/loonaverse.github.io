@@ -4,12 +4,13 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     overflow-y: scroll;
+    margin: 20px;
 }
 
 .popup {
-    display: block;
+    display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     left: 0;
     top: 0;
     width: 100%;
@@ -25,7 +26,7 @@
     display: block;
     width: 80%;
     /*height: 2cm;*/
-    background-color: #ffffff;
+    background-color: yellow;
     border-radius: 9px;
     border-color: black;
     text-align: left;
@@ -35,6 +36,22 @@
 
 #pop-content {
     padding: 50px;
+    color: white;
+}
+
+.credits {
+    bottom:0;
+}
+
+.profileCard {
+    display: flex;
+    height: 300px;
+    width: 350px;
+    background-position: bottom 50% right 50%;
+}
+
+.profileName {
+    margin: auto auto;
 }
 
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
