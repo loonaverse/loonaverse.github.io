@@ -165,7 +165,7 @@ $(document).ready(
 
     $('.popup').click(() => {
         $('.popup').css('display', 'none');
-        $('#pop-content').html(" ");
+        $('#pop-content').html("Loading...");
         $('#pop-block').css('background-color', 'white');
         $('#pop-content').css('color', 'black')
         $('.container').css('position', '').css('overflow', '');

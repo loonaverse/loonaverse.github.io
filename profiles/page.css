@@ -44,6 +44,8 @@ li {
 	padding: 15px;
 }
 
+li.active { color:#FF00AC; }
+
 li a {
     display: block;
     color: white;

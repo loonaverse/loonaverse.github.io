@@ -5,6 +5,9 @@ $(document).ready(
         var xmlhttp = new XMLHttpRequest();
 
         xmlhttp.onreadystatechange = function() {
+            if(this.status == 403) {
+                $('#latestLTV').append(`<p>We are having some trouble reaching YouTube. Please try again later.</p>`)
+            } else
             if(this.readyState == 4 && this.status == 200) {
                 var myObj = JSON.parse(this.responseText)
                 let videoId = myObj.items[0].snippet.resourceId.videoId;
