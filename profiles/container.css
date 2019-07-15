@@ -59,7 +59,7 @@
 
 .profileName:hover {
     background-color: rgba(0,0,0,0.4);
-    transition: .1s ease;
+    transition: .4s ease;
 }
 
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
