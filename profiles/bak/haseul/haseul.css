@@ -1,7 +1,0 @@
-#font {color:#00B053}
-
-body.overall {
-    background: rgba(255, 0, 139, 0.5) url(../../../img/background/bird.png) no-repeat center fixed;
-}
-
-li.active { color:#00B053; }

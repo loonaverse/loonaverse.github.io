@@ -1,7 +1,0 @@
-#font {color:#FF5F00}
-
-body.overall {
-    background: rgba(255, 95, 0, 0.5) url(../../../img/background/frog.png) no-repeat center fixed;
-}
-
-li.active { color:#FF5F00; }
