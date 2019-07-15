@@ -90,15 +90,15 @@ li a:hover {
 #gowon {background-image: url(./data/img/gowon.webp)}
 #olivia {background-image: url(./data/img/olivia.webp)}
 
-#heejin:hover {color:#FF008B; transition: .4s ease}
-#hyunjin:hover {color:#FFCF00; transition: .4s ease}
-#haseul:hover {color:#00B053; transition: .4s ease}
-#yeojin:hover {color:#FF5F00; transition: .4s ease}
-#vivi:hover {color:#FF94B0; transition: .4s ease}
-#kimlip:hover {color:#FF002C; transition: .4s ease}
-#jinsoul:hover {color:#0F93F5; transition: .4s ease}
-#choerry:hover {color:#BF45F0; transition: .4s ease}
-#yves:hover {color:#9C0041; transition: .4s ease}
-#chuu:hover {color:#FF8675; transition: .4s ease}
-#gowon:hover {color:#00C39F; transition: .4s ease}
-#olivia:hover {color:#A5ABC2; transition: .4 ease}
+#heejin:hover {color:#FF008B}
+#hyunjin:hover {color:#FFCF00}
+#haseul:hover {color:#00B053}
+#yeojin:hover {color:#FF5F00}
+#vivi:hover {color:#FF94B0}
+#kimlip:hover {color:#FF002C}
+#jinsoul:hover {color:#0F93F5}
+#choerry:hover {color:#BF45F0}
+#yves:hover {color:#9C0041}
+#chuu:hover {color:#FF8675}
+#gowon:hover {color:#00C39F}
+#olivia:hover {color:#A5ABC2}
