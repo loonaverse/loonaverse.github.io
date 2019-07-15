@@ -1,7 +1,0 @@
-#font {color:#FF003C}
-
-body.overall {
-    background: rgba(255, 0, 60, 0.7) url(../../../img/background/owl.png) no-repeat center fixed;
-}
-
-li.active { color:#FF003C; }

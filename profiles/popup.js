@@ -5,7 +5,7 @@ $(document).ready(
         // popupBox.style.display = 'block';
         $('.popup').css('display', 'block');
         //console.log('Show')
-
+        $('.container').css('position', 'fixed').css('overflow', 'hidden');
         const xmlhttp = new XMLHttpRequest();
         let api = `./data/${$(event.target).parent().attr('id')}.json`
         console.log($(event.target).parent().attr('id'));
@@ -52,7 +52,7 @@ $(document).ready(
 
                 //Side-Project Label
                 if(!myObj.wd && !myObj.tv) {
-                    let side_projects = "";
+                    side_projects = "";
                 } else {
                     side_projects = "<h2><u>Side Projects:</u></h2>"
                 }
@@ -166,8 +166,9 @@ $(document).ready(
     $('.popup').click(() => {
         $('.popup').css('display', 'none');
         $('#pop-content').html(" ");
-        $('#pop-block').css('background-color', white);
-        $('#pop-content').css('color', black)
+        $('#pop-block').css('background-color', 'white');
+        $('#pop-content').css('color', 'black')
+        $('.container').css('position', '').css('overflow', '');
         //console.log('Hide')
     })
 
