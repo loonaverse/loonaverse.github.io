@@ -1,0 +1,67 @@
+/*LOONA Events CSS*/
+
+.eventContainer {
+    display: block;
+} 
+
+.eventMenu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px auto;
+}
+
+.eventMenuItem {
+    display: table;
+    height: 45vh;
+    width: 50vw;
+    background-repeat: no-repeat;
+	background-position: bottom 50% right 50%;
+    background-size: cover;
+}
+
+.eventMenuName {
+    display: table-cell;
+    vertical-align: middle;
+    height: inherit;
+    width: inherit;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+.eventMenuName:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: .4s ease;
+}
+
+#studio {
+
+}
+
+#birth {
+
+}
+
+#lineUp {
+
+}
+
+#upLine {
+    background-image: url('./img/events/upLine.webp');
+    font-family: 'TingTong';
+    font-size: 2.5em;
+}
+
+#upLine span:hover{
+    color: #FF0058;
+}
+
+#lineUp {
+    background-image: url('./img/events/lineUp.webp');
+    font-family: 'TingTong';
+    font-size: 2.5em;
+}
+
+#lineUp span:hover{
+    color: #AF475F;
+}
