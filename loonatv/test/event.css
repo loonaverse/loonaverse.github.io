@@ -2,21 +2,26 @@
 
 .eventContainer {
     display: block;
+    margin: 0 auto;
 } 
 
 .eventMenu {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 .eventMenuItem {
     display: table;
-    height: 45vh;
-    width: 50vw;
+    height: 40vh;
+    width: 35vw;
     background-repeat: no-repeat;
 	background-position: bottom 50% right 50%;
     background-size: cover;
+    border: 2px solid black;
+    border-radius: 18px;
+    margin: 3%;
+    overflow: hidden;
 }
 
 .eventMenuName {
@@ -26,7 +31,8 @@
     width: inherit;
     font-size: 1.5em;
     text-decoration: none;
-    color: black;
+    color: white;
+    font-family: 'TingTong';
 }
 
 .eventMenuName:hover {
@@ -35,33 +41,58 @@
 }
 
 #studio {
-
+    background-image: url('./img/events/studio.webp');
+}
+#studio span {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
 }
 
 #birth {
-
+    background-image: url('./img/events/birth.webp');
+    font-size: 2.5em;
 }
-
-#lineUp {
-
+#birth span {
+    /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
+}
+#birth span:hover{
+    color: #7E50A0;
+    text-shadow: -1px 0 white, 0 1px #7E50A0, 1px 0 #7E50A0, 0 -1px white;
 }
 
 #upLine {
     background-image: url('./img/events/upLine.webp');
-    font-family: 'TingTong';
     font-size: 2.5em;
 }
-
 #upLine span:hover{
     color: #FF0058;
 }
 
 #lineUp {
+    background-color: #E8E6E5;
     background-image: url('./img/events/lineUp.webp');
-    font-family: 'TingTong';
+    background-size: 100%;
     font-size: 2.5em;
 }
-
+#lineUp span {
+    color: black;
+}
 #lineUp span:hover{
     color: #AF475F;
+}
+
+@media screen and (max-width: 945px) {
+    .eventMenuItem {
+        width: 45vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .eventMenu {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .eventMenuItem {
+        width: 80vw;
+    }
 }
