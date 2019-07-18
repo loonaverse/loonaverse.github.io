@@ -9,10 +9,10 @@ body.overall {
 
 li.active { color:#FF94B0; }
 
-#bgVideo {
+/* #bgVideo {
     position: fixed;
     transform: translate(0, 36%)
-}
+} */
 
 #bgImg {
     display: none;
