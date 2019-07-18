@@ -1,7 +1,7 @@
 /*LOONA Events CSS*/
 
 .eventContainer {
-    display: block;
+    display: none;
     margin: 0 auto;
 } 
 
@@ -53,9 +53,9 @@
     background-image: url('./img/events/birth.webp');
     font-size: 2.5em;
 }
-#birth span {
-    /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
-}
+/* #birth span {
+     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; 
+} */
 #birth span:hover{
     color: #7E50A0;
     text-shadow: -1px 0 white, 0 1px #7E50A0, 1px 0 #7E50A0, 0 -1px white;
@@ -65,7 +65,7 @@
     background-image: url('./img/events/upLine.webp');
     font-size: 2.5em;
 }
-#upLine span:hover{
+#upLine a:hover{
     color: #FF0058;
 }
 
@@ -75,10 +75,10 @@
     background-size: 100%;
     font-size: 2.5em;
 }
-#lineUp span {
+#lineUp a {
     color: black;
 }
-#lineUp span:hover{
+#lineUp a:hover{
     color: #AF475F;
 }
 
