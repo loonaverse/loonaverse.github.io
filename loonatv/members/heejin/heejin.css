@@ -52,9 +52,10 @@ li.active { color:#FF008B; }
     }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1920px), screen and (min-height: 1200px) {
     #bgVideo {
         object-fit: cover;
+        height: 100vh;
     }
 }
 
