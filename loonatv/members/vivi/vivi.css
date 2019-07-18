@@ -28,7 +28,7 @@ li.active { color:#FF94B0; }
     bottom: 0;
     width: 100%;
     height: 100%;
-    background: /*rgba(0 ,0 , 0, 0.35)*/ url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHUlEQVQYV2NkYGD4z8DAwMgAAf/hDKgAI1YBFC0Ax6EGA0lUbFkAAAAASUVORK5CYII=);
+    background: rgba(0 ,0 , 0, 0.5) /*url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHUlEQVQYV2NkYGD4z8DAwMgAAf/hDKgAI1YBFC0Ax6EGA0lUbFkAAAAASUVORK5CYII=)*/;
     text-align: center;
     overflow-y: scroll;
 }

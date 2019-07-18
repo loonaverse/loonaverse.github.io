@@ -9,16 +9,16 @@ body.overall {
 
 li.active { color:#FFCF00; }
 
-#bgVideo {
+/* #bgVideo {
     position: fixed;
     transform: translate(0, 36%)
-}
+} */
 
 #bgImg {
     display: none;
     position: fixed;
     height: 100%;
-    xwidth: 100%;
+    /* xwidth: 100%; */
     transform: translate(0, 50%);
 }
 
@@ -28,7 +28,7 @@ li.active { color:#FFCF00; }
     bottom: 0;
     width: 100%;
     height: 100%;
-    background: /*rgba(0 ,0 , 0, 0.35)*/ url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHUlEQVQYV2NkYGD4z8DAwMgAAf/hDKgAI1YBFC0Ax6EGA0lUbFkAAAAASUVORK5CYII=);
+    background-color: rgba(0 ,0 , 0, 0.5) /* url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHUlEQVQYV2NkYGD4z8DAwMgAAf/hDKgAI1YBFC0Ax6EGA0lUbFkAAAAASUVORK5CYII=) */;
     text-align: center;
     overflow-y: scroll;
 }

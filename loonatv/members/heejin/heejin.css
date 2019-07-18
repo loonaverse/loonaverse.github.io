@@ -9,12 +9,12 @@ body.overall {
 
 li.active { color:#FF008B; }
 
-#bgVideo {
+/* #bgVideo {
     position: fixed;
     transform: translate(0, 36%);
     object-fit: cover;
     min-height: 100%;
-}
+} */
 
 #bgImg {
     display: none;
