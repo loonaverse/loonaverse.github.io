@@ -33,6 +33,13 @@ li.active { color:#FF94B0; }
     overflow-y: scroll;
 }
 
+@media screen and (max-width: 1440px) {
+    #bgVideo {
+        position: fixed;
+        transform: translate(0, 36%)
+    }
+}
+
 @media screen and (max-width: 1048px) {
     #bgVideo {
         display: none;
@@ -40,5 +47,11 @@ li.active { color:#FF94B0; }
 
     #bgImg {
         display: block;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    #bgVideo {
+        object-fit: cover;
     }
 }
