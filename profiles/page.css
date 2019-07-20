@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+ font-family: "Ano Half";
+    src: url(../../fonts/ano.ttf)format("truetype")	
+}
+
+@font-face {
+font-family: "TingTong";
+	src:url(../../fonts/TingTong.ttf)format("Truetype")
+}
+
+.profileCard {font-family: "TingTong"; font-size:50px;}
+
+body.overall {
+    display: fixed;
+    background-size: contain;
+	font-family: "Ano Half", "Arial";
+	text-align: center;
+    margin: 0; padding: 0;
+}
+
+title { 
+	margin-top:50px;
+	width:100%;
+	text-align:center;
+ }
+
+/*NavBar*/
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+	width: 100%;
+	text-align:center;
+}
+
+li {
+    float: left;
+	color: #fff;
+	padding: 15px;
+}
+
+li.active { color:#FF00AC; }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.media {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    align-content: center;
+    padding: 1cm;
+}
+
+.content {
+    text-align: left;
+    padding: 1cm;
+    align-self: center;
+    background: rgba(255,255,255, 0.8)
+}
+
+#stream {
+    float: right;
+}
+
+#heejin {background-image: url(./data/img/heejin.webp)}
+#hyunjin {background-image: url(./data/img/hyunjin.webp)}
+#haseul {background-image: url(./data/img/haseul.webp)}
+#yeojin {background-image: url(./data/img/yeojin.webp)}
+#vivi {background-image: url(./data/img/vivi.webp)}
+#kimlip {background-image: url(./data/img/kimlip.webp)}
+#jinsoul {background-image: url(./data/img/jinsoul.webp)}
+#choerry {background-image: url(./data/img/choerry.webp)}
+#yves {background-image: url(./data/img/yves.webp)}
+#chuu {background-image: url(./data/img/chuu.webp)}
+#gowon {background-image: url(./data/img/gowon.webp)}
+#olivia {background-image: url(./data/img/olivia.webp)}
+
+#heejin:hover {color:#FF008B}
+#hyunjin:hover {color:#FFCF00}
+#haseul:hover {color:#00B053}
+#yeojin:hover {color:#FF5F00}
+#vivi:hover {color:#FF94B0}
+#kimlip:hover {color:#FF002C}
+#jinsoul:hover {color:#0F93F5}
+#choerry:hover {color:#BF45F0}
+#yves:hover {color:#9C0041}
+#chuu:hover {color:#FF8675}
+#gowon:hover {color:#00C39F}
+#olivia:hover {color:#A5ABC2}

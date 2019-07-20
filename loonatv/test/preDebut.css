@@ -1,0 +1,137 @@
+/*PRE DEBUT CSS*/
+
+.preContainer {
+	display: none;
+}
+
+.preMenu {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin: 0px auto;
+	transition: 0.2s ease;
+}
+
+.preMenuSub {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin: 0px auto;
+	transition: 0.2s ease;
+}
+
+.preMenuItem {
+	display: table;
+	height: 30vh;
+	width: 25vw;
+	background-repeat: no-repeat;
+	background-position: bottom 50% right 50%;
+	background-size: cover;
+}
+
+.preSubsItem {
+	width: 33vw;
+	height: 40vh;
+}
+
+.preMenuName {
+	display: table-cell;
+	vertical-align: middle;
+	width: inherit;
+	height: inherit;
+	font-family: 'TingTong';
+	font-size: 2.5em;
+	text-decoration: none;
+	color: white;
+}
+
+.preMenuName:hover {
+	background-color: rgba(0, 0, 0, 0.4);
+	transition: .4s ease;
+}
+
+#heejin {background-image: url(./img/preMenu/heejin.webp)}
+#heejin a:hover {color:#FF008B}
+#hyunjin {background-image: url(./img/preMenu/hyun2.webp)}
+#hyunjin a:hover {color:#FFCF00}
+#haseul {background-image: url(./img/preMenu/haseul.webp)}
+#haseul a:hover {color:#00B053}
+#yeojin {background-image: url(./img/preMenu/yeojin.webp)}
+#yeojin a:hover {color:#FF5F00}
+#vivi {background-image: url(./img/preMenu/vivi.webp)}
+#vivi a:hover {color:#FF94B0}
+#kimlip {background-image: url(./img/preMenu/kimlip.webp)}
+#kimlip a:hover {color:#FF002C}
+#jinsoul {background-image: url(./img/preMenu/jinsoul.webp)}
+#jinsoul a:hover {color:#0F93F5}
+#choerry {background-image: url(./img/preMenu/choerry.webp)}
+#choerry a:hover {color:#BF45F0}
+#yves {background-image: url(./img/preMenu/yves.webp)}
+#yves a:hover {color:#9C0041}
+#chuu {background-image: url(./img/preMenu/chuu.webp)}
+#chuu a:hover {color:#FF8675}
+#gowon {background-image: url(./img/preMenu/gowon.webp)}
+#gowon a:hover {color:#00C39F}
+#olivia {background-image: url(./img/preMenu/olivia.webp)}
+#olivia a:hover {color:#A5ABC2}
+
+#loona1-3 {
+	background-image: url(./img/preMenu/1_3.webp);
+	background-position: bottom 73% right 50%;
+	background-size: 100%; 
+}
+#loona1-3 a{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#loona1-3 a:hover{
+	color: #A3E1DF;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+#oec {
+	background-image: url(./img/preMenu/oec.webp);
+	background-position: bottom 73% right 50%;
+	background-size: 100%; 
+}
+#oec a{
+	font-family: 'Ano Half';
+}
+#oec a:hover{
+	color: #850078;
+}
+#yyxy {
+	background-image: url(./img/preMenu/yyxy.webp);
+	background-position: bottom 73% right 50%;
+	background-size: 100%; 
+}
+#yyxy a{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+#yyxy a:hover{
+	color: #9FDF9F;
+}
+
+
+@media screen and (max-width: 828px) {
+	.preMenu {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.preMenuItem {
+		width: 33vw;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.preMenu {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.preMenuSub {
+		grid-template-columns: repeat(1, 1fr);
+		
+	}
+	.preMenuItem {
+		/* height: ; */
+		width: 50vw;
+	}
+	.preSubsItem {
+		width: 100vw;
+		margin-bottom: 1px;
+	}
+}
