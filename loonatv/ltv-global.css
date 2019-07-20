@@ -11,13 +11,17 @@ font-family: "TingTong";
 	src:url(../../fonts/TingTong.ttf)format("Truetype")
 }
 
-#font {font-family: "TingTong"; font-size:30px;}
+#font {font-family: "TingTong"; font-size:2em;}
 
 body.overall {
     background-size: contain;
 	font-family: "Ano Half", "Arial";
 	text-align: center;
     margin: 0; padding: 0;
+}
+
+h1 {
+    color: white;
 }
 
 title { 

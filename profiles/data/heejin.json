@@ -1,0 +1,66 @@
+{
+    "displayText": "white",
+    "stage": "HeeJin",
+    "name": "Jeon HeeJin",
+    "reveal": "September 26, 2016",
+    "debut": "October 05, 2016",
+    "bday": "October 19, 2000",
+    "bplace": "Bundang-gu, Seongnam, Gyeonggi Province, South Korea",
+    "bloodGrp": "A",
+
+    "traineeDuration": "?",
+    "nextGirlImg": "--",
+    "img": "https://i.imgur.com/PaINZwr.jpg",
+    "sign": "https://vignette.wikia.nocookie.net/loonatheworld/images/4/48/HeeJin_signature.png",
+
+    "memNo": "First",
+    "animal": "🐇",
+    "color": {
+        "name": "Hot Pink",
+        "hex": "#FF008B",
+        "rgb": "rgb(255, 0, 139)"
+    },
+    "given": "Heekkie, Heejumeoni, Heejumma",
+
+    "hashtags": "#Jeon #Hwi #Hyeol",
+    "teamPostion": "Clumsy-hands, Organized one, Cure-all hands",
+    "charmPoint": "Thick eyebrows, Penguin-like Lips",
+
+    "playlist": "-Heart Breaker - Justin Bieber<br>- Already One Year - Brown Eyes",
+    "goals": "Dominating the Universe (+ Koduko no Gourmet)",
+
+    "msgToOrbit": "Hello, Orbits my love! :) It’s already been a year. It's such a happy day but I feel sorry that there's not much I've done for you for the past year. Thank you so much for staying with me, and I love you with all my heart. LOONA could only exist because of Orbits last year!",
+
+    "mv": [
+        { "record": ["2016", "ViViD", "HeeJin", "Main", "-FCYE87P5L0"] },
+        { "record": ["2016", "ViViD (Acoustic Mix)", "HeeJin", "Main", "E6hhBqWjdmM"] },
+        { "record": ["2016", "I'll Be There", "HyunJin", "Main", "pKybkK2gj1U"] },
+        { "record": ["2016", "The Carol", "HaSeul", "Main", "WX-lpEnIQQk"] },
+        { "record": ["2017", "My Sunday", "YeoJin", "Main", "TtaDrUbsO30"] },
+        
+        { "record": ["2017", "Love&Live", "Love & Live", "Main", "4K4b9Z9lSwc"] },
+        { "record": ["2017", "You and Me Together (Special MV)", "Love & Live", "Main", "2_r4kDUzslg"] },
+        
+        { "record": ["2017", "Everyday I Love You (feat. HaSeul)", "ViVi", "Cameo", "ZNcBZM5SvbY"] },
+        
+        { "record": ["2017", "Sonatine", "Love & Evil", "Main", "a6JmCdDs_GM"] },
+        { "record": ["2017", "Rain 51db", "Love & Evil", "Main", "GhcY79E7am0"] },
+        
+        { "record": ["2017", "Singing In The Rain (feat. HeeJin)", "JinSoul", "Rapper", "jm9066RGYsI"] },
+        { "record": ["2018", "Around You (Special Film Ver.)",	"HyunJin", "Cameo","jzPITap-JRM"] },
+        { "record": ["2018", "Egoist (feat. JinSoul)", "Olivia Hye", "Cameo", "UkY8HvgvBJ8"] },
+
+        { "record": ["2018", "favOriTe", "[++]", "Main", "AFJPFfnzZ7w"] },
+        { "record": ["2018", "Hi High", "[++]", "Main", "846cjX0ZTrk"] },
+        { "record": ["2018", "Butterfly", "[xx]", "Main", "XEOCbFJjRw0"] }
+    ],
+
+    "wd": [
+        { "record": ["2017", "Do You Remember The First Time We Met?", "Jeon HeeJin (Herself)", "https://www.youtube.com/playlist?list=PLgUyA0NDuB-1HiLwm-aC2HEOQ-zMtCCCX"] },
+        { "record": ["2017", "Do You Remember The First Time We Met? Season 2", "Jeon HeeJin (Herself)", "https://www.youtube.com/playlist?list=PLgUyA0NDuB-0E8fbbHbOm3kmAK96Y7qGR"] }
+    ],
+
+    "tv": [
+        { "record": ["2017-18",	"MIXNINE", "jTBC", "Contestant", "#"] }
+    ]
+}

@@ -1,7 +1,0 @@
-#font {color:#FFCF00}
-
-body.overall {
-    background: rgba(255, 207, 0, 0.4) url(../../../img/background/rabbit.png) no-repeat center fixed;
-}
-
-li.active { color:#FFCF00; }
