@@ -43,7 +43,7 @@
 #studio {
     background-image: url('./img/events/studio.webp');
 }
-#studio span {
+#studio a{
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2em;
@@ -56,7 +56,7 @@
 /* #birth span {
      text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; 
 } */
-#birth span:hover{
+#birth a:hover{
     color: #7E50A0;
     text-shadow: -1px 0 white, 0 1px #7E50A0, 1px 0 #7E50A0, 0 -1px white;
 }
