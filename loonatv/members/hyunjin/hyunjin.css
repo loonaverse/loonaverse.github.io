@@ -1,7 +1,64 @@
 #font {color:#FFCF00}
 
 body.overall {
-    background: rgba(255, 207, 0, 0.4) url(../../../img/background/rabbit.png) no-repeat center fixed;
+    /* background: rgba(255, 207, 0, 0.4) url(../../../img/background/cat.png) no-repeat center fixed; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 li.active { color:#FFCF00; }
+
+/* #bgVideo {
+    position: fixed;
+    transform: translate(0, 36%)
+} */
+
+#bgImg {
+    display: none;
+    position: fixed;
+    height: 100%;
+    /* xwidth: 100%; */
+    transform: translate(0, 50%);
+}
+
+#overlay {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0 ,0 , 0, 0.5) /* url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHUlEQVQYV2NkYGD4z8DAwMgAAf/hDKgAI1YBFC0Ax6EGA0lUbFkAAAAASUVORK5CYII=) */;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+/* @media screen and (max-width: 1440px) {
+    #bgVideo {
+        position: fixed;
+        transform: translate(0, 36%)
+    }
+}
+
+@media screen and (max-width: 1048px) {
+    #bgVideo {
+        display: none;
+    }
+
+    #bgImg {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1920px), screen and (min-height: 1200px) {
+    #bgVideo {
+        object-fit: cover;
+        height: 100vh;
+    }
+} */
+
+#bgVideo {
+    object-fit: cover;
+    height: 100vh;
+    min-width: 100vw;
+}

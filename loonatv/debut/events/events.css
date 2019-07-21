@@ -1,0 +1,65 @@
+#font {color:#7E50A0; font-size: 40px;
+    text-shadow: -1px 0 white, 0 1px #7E50A0, 1px 0 #7E50A0, 0 -1px white;
+}
+
+body.overall {
+	background: rgba(0, 0, 0, 0) url(loi2.png) no-repeat center fixed;
+}
+
+li.active { color:#000000; background-color: white; }
+
+/*
+.youtube {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: rgba(0,0,0,0.1);
+    position: relative;
+    width: 480px;
+    height: 270px;
+    overflow: hidden;
+    cursor: pointer;
+    align-self: center;
+}
+.youtube img {
+    width: 480px;
+    height: 360px;
+    left: 0;
+    top: -45px;
+}
+.youtube .play-button {
+    width: 90px;
+    height: 60px;
+    background-color: #333;
+    box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
+    z-index: 1;
+    opacity: 0.8;
+    border-radius: 6px;
+}
+.youtube .play-button:before {
+    content: "";
+    border-style: solid;
+    border-width: 15px 0 15px 26.0px;
+    border-color: transparent transparent transparent #fff;
+}
+.youtube img,
+.youtube .play-button {
+    cursor: pointer;
+}
+.youtube img,
+.youtube iframe,
+.youtube .play-button,
+.youtube .play-button:before {
+    position: absolute;
+}
+.youtube .play-button,
+.youtube .play-button:before {
+    top: 50%;
+    left: 50%;
+    transform: translate3d( -50%, -50%, 0 );
+}
+.youtube iframe {
+    width: 484px;
+    height: 272px;
+    top: 0;
+    left: 0;
+}*/

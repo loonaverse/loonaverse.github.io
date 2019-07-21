@@ -1,0 +1,63 @@
+{
+    "displayText": "white",
+    "stage": "HaSeul",
+    "name": "Jo HaSeul",
+    "reveal": "December 08, 2016",
+    "debut": "December 15, 2016",
+    "bday": "August 18, 1998",
+    "bplace": "Ansan, Gyeonggi Province, South Korea ",
+    "bloodGrp": "O",
+
+    "traineeDuration": "?",
+    "nextGirlImg": "--",
+    "img": "https://i.imgur.com/YCXLVBq.jpg",
+    "sign": "https://vignette.wikia.nocookie.net/loonatheworld/images/a/a5/HaSeul_signature.png",
+
+    "memNo": "Third",
+    "animal": "🕊",
+    "color": {
+        "name": "Sea Green",
+        "hex": "#00B053",
+        "rgb": "rgb(0, 176, 83)"
+    },
+    "given": "HaSeul PD, Jo PD, MomSeul",
+
+    "hashtags": "#Iceland #VocalGangster",
+    "teamPostion": "Mommy",
+    "charmPoint": "My heart that loves and cares about Orbits",
+
+    "playlist": "- Fairy Tale<br>- Starlight<br>- rendezvous 18.6y",
+    "goals": "Having a concert 10 years from now, founding a small theater named 'Jo HaSeul'",
+
+    "msgToOrbit": "Orbits! I'm so emotional to think that it has already been a year. A lot of things have happened while the 1st generation Orbits spent a year with us and there were many happy and good moments! We did three concerts and two promotions and albums, right!? Thank you so much for being with us until now, Orbits. You are so precious and I'm so grateful, it can't be expressed in words. You know how I feel, right!? Thank you.",
+
+    "mv": [
+        { "record": ["2016", "Let Me In", "HaSeul", "Main", "6a4BWpBJppI"] },
+        { "record": ["2016", "The Carol", "HaSeul", "Main", "WX-lpEnIQQk"] },
+        { "record": ["2017", "My Melody", "YeoJin", "Main", "wUBrO83fTbY"] },
+        
+        { "record": ["2017", "Love&Live", "Love & Live", "Main", "4K4b9Z9lSwc"] },
+        { "record": ["2017", "You and Me Together (Special MV)", "Love & Live", "Main", "2_r4kDUzslg"] },
+        
+        { "record": ["2017", "Everyday I Love You (feat. HaSeul)", "ViVi", "Cameo", "ZNcBZM5SvbY"] },
+        
+        { "record": ["2017", "Sonatine", "Love & Evil", "Main", "a6JmCdDs_GM"] },
+        { "record": ["2017", "Rain 51db", "Love & Evil", "Main", "GhcY79E7am0"] },
+        
+        { "record": ["2017", "Love Cherry Motion", "Choerry", "Cameo", "VBbeuXW8Nko"] },
+        { "record": ["2018", "Heart Attack", "Chuu", "Cameo", "BVVfMFS3mgc"] },
+
+        { "record": ["2018", "favOriTe", "[++]", "Main", "AFJPFfnzZ7w"] },
+        { "record": ["2018", "Hi High", "[++]", "Main", "846cjX0ZTrk"] },
+        { "record": ["2018", "Butterfly", "[xx]", "Main", "XEOCbFJjRw0"] }
+    ],
+
+    "wd": [
+        { "record": ["2017", "Do You Remember The First Time We Met?", "Jo HaSeul (Herself)", "https://www.youtube.com/playlist?list=PLgUyA0NDuB-1HiLwm-aC2HEOQ-zMtCCCX"] },
+        { "record": ["2017", "Do You Remember The First Time We Met? Season 2", "Jo HaSeul (Herself)", "https://www.youtube.com/playlist?list=PLgUyA0NDuB-0E8fbbHbOm3kmAK96Y7qGR"] }
+    ],
+
+    "tv": [
+        { "record": ["2017-18",	"MIXNINE", "jTBC", "Contestant", "#"] }
+    ]
+}

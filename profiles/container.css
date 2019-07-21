@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 10px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    overflow: scroll;
+}
+
+#pop-block {
+    position: relative;
+    margin: 0 auto;
+    top: 5%;
+    display: block;
+    width: 80%;
+    /*height: 2cm;*/
+    background-color: white;
+    border-radius: 9px;
+    border-color: black;
+    text-align: left;
+    overflow-y: scroll;
+    
+}
+
+#pop-content {
+    padding: 50px;
+    color: white;
+    font-size: 100%;
+}
+
+.credits {
+    bottom: 0;
+}
+
+.profileCard {
+    display: table;
+    width: 24vw;
+    height: 33vh;
+    background-position: bottom 50% right 50%;
+}
+
+.profileName {
+    display: table-cell;
+    height: inherit;
+    width: inherit;
+    vertical-align: middle;
+}
+
+.profileName:hover {
+    background-color: rgba(0,0,0,0.4);
+    transition: .4s ease;
+}
+
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-cpu2{border-color:#000000;vertical-align:top}
+.tg .tg-wreh{font-weight:bold;border-color:#000000;vertical-align:top}
+
+@media screen and (max-width: 1110px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .profileCard {
+        width: 32vw;
+        min-height: 17vh;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 2.5%;
+    }
+    .profileCard {
+        width: 47vw;
+    }
+
+    #pop-content {
+        padding: 15px;
+        color: white;
+        font-size: 75%;
+    }
+    .tg td{
+        font-size: 75%;
+    }
+    .tg th{
+        font-size: 75%;
+    }
+}
