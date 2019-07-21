@@ -1,0 +1,76 @@
+/*LOONA Debut CSS*/
+
+.debutContainer {
+    display: none;
+    margin: 0 auto;
+} 
+
+.debutMenu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+}
+
+.debutMenuItem {
+    display: table;
+    min-height: 60vh;
+    width: 45vw;
+    background-repeat: no-repeat;
+	background-position: bottom 50% right 50%;
+    background-size: cover;
+    /* border: 2px solid black; */
+    /* border-radius: 18px; */
+    margin: 1%;
+    overflow: hidden;
+}
+
+.debutMenuName {
+    display: table-cell;
+    vertical-align: middle;
+    height: inherit;
+    width: inherit;
+    font-size: 3em;
+    text-decoration: none;
+    color: white;
+    font-family: 'Ano Half';
+}
+
+.debutMenuName:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: .4s ease;
+    overflow: hidden;
+}
+
+#butterfly {
+    background-image: url("./img/debut/xx.webp")
+}
+
+#hihigh {
+    background-image: url("./img/debut/++.webp")
+}
+
+@media screen and (max-width: 945px) {
+    .debutMenuItem {
+        width: 45vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .debutMenu {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .debutMenuItem {
+        width: 80vw;
+        min-height: 50vh;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .debutMenu {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .debutMenuItem {
+        width: 80vw;
+        min-height: 34vh;
+    }
+}

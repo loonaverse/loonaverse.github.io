@@ -86,6 +86,7 @@ li a:hover {
 	background-repeat: no-repeat;
 	height: 20vw;
 	width: 35vw;
+	overflow: hidden;
 
 }
 
@@ -93,6 +94,11 @@ li a:hover {
 	display: table-cell;
 	vertical-align: middle;
 	height: 30vh;
+}
+
+.menuName:hover {
+	background-color: rgba(0,0,0,0.40);
+	transition: 0.4s ease;
 }
 
 #latest {
