@@ -1,4 +1,4 @@
-#font {color:#AF475F; font-size: 40px;
+#font {color:#7e50a0; font-size: 40px;
     text-shadow: -1px 0 white, 0 1px #7E50A0, 1px 0 #7E50A0, 0 -1px white;
 }
 
@@ -31,7 +31,7 @@ li.active { color:#000000; background-color: white; }
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0 ,0 , 0, 0.35);
+    background-color: rgba(0 ,0 , 0, 0.5);
     text-align: center;
     overflow-y: scroll;
 }
