@@ -10,6 +10,11 @@ $(document).ready(
     //     // $('.preContainer').css('display', 'none');
     // });
 
+    $('#loona').click(() => {
+        $('.menu').css('display', 'none');
+        $('.debutContainer').css('display', 'block');
+    });
+
     $('#preDebut').click(() => {
         $('.menu').css('display', 'none');
         $('.preContainer').css('display', 'block');

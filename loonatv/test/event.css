@@ -13,14 +13,14 @@
 
 .eventMenuItem {
     display: table;
-    height: 40vh;
-    width: 35vw;
+    height: 44vh;
+    width: 48vw;
     background-repeat: no-repeat;
 	background-position: bottom 50% right 50%;
     background-size: cover;
-    border: 2px solid black;
-    border-radius: 18px;
-    margin: 3%;
+    /* border: 2px solid black; */
+    /* border-radius: 18px; */
+    margin: 1%;
     overflow: hidden;
 }
 
@@ -82,7 +82,7 @@
     color: #AF475F;
 }
 
-@media screen and (max-width: 945px) {
+@media screen and (max-width: 745px) {
     .eventMenuItem {
         width: 45vw;
     }
@@ -93,6 +93,17 @@
         grid-template-columns: repeat(1, 1fr);
     }
     .eventMenuItem {
-        width: 80vw;
+        min-width: 80vw;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .eventMenuItem {
+        min-width: 90vw;
+        height: 35vh;
+    }
+
+    #birth {
+        font-size: 2em;
     }
 }
