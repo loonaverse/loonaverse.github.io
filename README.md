@@ -10,14 +10,8 @@ LOOΠΔ is South Korean Girl Group consisting of 12 members under the label Bloc
 ## What does the website contain at the moment?
 As of writing this, I have covered up a lot of LOOΠΔ TV episodes from the past 2 years. This website is not complete as I am still quite new to web development. I am using this in order to learn web development languages.
 
-## Forking:
-Would you like to support this project? Let me know about the fork and give me credits :'D plis. Thank!
-
 
 The updates will be slow for a while. 
-
-...
-I have nothing else to write at the moment...
 
 P.S: Currently best viewed on Desktop. 
 
