@@ -1,89 +1,156 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-130668992-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130668992-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      gtag("config", "UA-130668992-1");
+    </script>
 
-  gtag('config', 'UA-130668992-1');
-</script>
+    <meta charset="UTF-8" />
+    <!--meta name="viewport" content="width=device-width"-->
+    <title>LOOΠΔVERSE</title>
+    <link href="maintv_test.css" rel="stylesheet" type="text/css" />
+    <link href="debut.css" rel="stylesheet" type="text/css" />
+    <link href="preDebut.css" rel="stylesheet" type="text/css" />
+    <link href="event.css" rel="stylesheet" type="text/css" />
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.4.1.js"
+    ></script>
+    <meta name="viewport" content="width=device-width" />
+  </head>
 
-<meta charset="UTF-8">
-<!--meta name="viewport" content="width=device-width"-->
-<title>LOOΠΔVERSE</title>
-<link href="maintv_test.css" rel="stylesheet" type="text/css">
-<link href="preDebut.css" rel="stylesheet" type="text/css">
-<link href="event.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
-<meta name="viewport" content="width=device-width">
-</head>
-
-<body class="absolute">
-<div class="title"><!---Webpage Header--->
-<h1>LOOΠΔVERSE</h1>
-<ul class="navbar">
-    <a href="../.."><li>Home</li></a>
-    <a href="../profiles"><li>Profiles</li></a>
-    <a href="../loonatv"><li class="active">LOOΠΔ TV</li></a>
-    <a href="../kicks"><li>Kicks</li></a> 
-    <a href="../community"><li>Community</li></a>
-    <a href="http://loona.stream"><li id="stream">Stream</li></a>
-    <a href="../about"><li>About</li></a>
-    
-</ul>
-<div><h1 id="title">LOOΠΔ TV</h1></div>
-</div>
-<div class='wrapper'>
-<div class='menu'>
-    <div class='menuItem' id='latest'><!--img id='latestImg' src="https://img.youtube.com/vi/AKopicTSCJ4/sddefault.jpg"--><span class='menuName'></span></div>
-    <div class='menuItem' id='loona'><span class='menuName'></span></div>
-    <div class='menuItem' id='preDebut'><span class='menuName'></span></div>
-    <div class='menuItem' id='events'><span class='menuName'></span></div>
-</div>    
-
-<div class="preContainer">
-<h2>Solo Eras</h2>
-<div class="preMenu">
-    <div class='preMenuItem' id='heejin'><a href='./../members/heejin' class='preMenuName'>HeeJin</a></div>
-    <div class='preMenuItem' id='hyunjin'><a href='./../members/hyunjin' class='preMenuName'>HyunJin</a></div>
-    <div class='preMenuItem' id='haseul'><a href='./../members/haseul' class='preMenuName'>HaSeul</a></div>
-    <div class='preMenuItem' id='yeojin'><a href='./../members/yeojin' class='preMenuName'>YeoJin</a></div>
-
-    <div class='preMenuItem' id='vivi'><a href='./../members/vivi' class='preMenuName'>ViVi</a></div>
-    <div class='preMenuItem' id='kimlip'><a href='./../members/kimlip' class='preMenuName'>Kim Lip</a></div>
-    <div class='preMenuItem' id='jinsoul'><a href='./../members/jinsoul' class='preMenuName'>JinSoul</a></div>
-    <div class='preMenuItem' id='choerry'><a href='./../members/choerry' class='preMenuName'>Choerry</a></div>
-    
-    <div class='preMenuItem' id='yves'><a href='./../members/yves' class='preMenuName'>Yves</a></div>
-    <div class='preMenuItem' id='chuu'><a href='./../members/chuu' class='preMenuName'>Chuu</a></div>
-    <div class='preMenuItem' id='gowon'><a href='./../members/gowon' class='preMenuName'>Go Won</a></div>
-    <div class='preMenuItem' id='olivia'><a href='./../members/olivia' class='preMenuName'>Olivia Hye</a></div>
-  </div>
-
-  <h2>Subunits</h2>
-  <div class="preMenu preMenuSub">
-    <div class='preMenuItem preSubsItem' id='loona1-3'><a href='./../subunits/1_3/' class='preMenuName preSubsName'>LOOΠΔ ⅓</a></div>
-    <div class='preMenuItem preSubsItem' id='oec'><a href='./../subunits/oec' class='preMenuName preSubsName'>ODD EYE CIRCLE</a></div>
-    <div class='preMenuItem preSubsItem' id='yyxy'><a href='./../subunits/yyxy/' class='preMenuName preSubsName'>yyxy</a></div>
-  </div>
-</div>
-
-<div class="eventContainer">
-    <div class="eventMenu">
-        <div class="eventMenuItem" id="studio"><span class="eventMenuName">LOONA STUDIO</span></div>
-        <div class="eventMenuItem" id="birth"><span class="eventMenuName">LOONAbirth</span></div>
-        <div class="eventMenuItem" id="lineUp"><a href="./../events/lineUp" class="eventMenuName">Line&Up</a></div>
-        <div class="eventMenuItem" id="upLine"><a href="./../events/upLine" class="eventMenuName">Up&Line</a></div>
+  <body class="absolute">
+    <div class="title">
+      <!---Webpage Header--->
+      <h1>LOOΠΔVERSE</h1>
+      <ul class="navbar">
+        <a href="../.."><li>Home</li></a>
+        <a href="../profiles"><li>Profiles</li></a>
+        <a href="../loonatv"><li class="active">LOOΠΔ TV</li></a>
+        <a href="../kicks"><li>Kicks</li></a>
+        <a href="../community"><li>Community</li></a>
+        <a href="http://loona.stream"><li id="stream">Stream</li></a>
+        <a href="../about"><li>About</li></a>
+      </ul>
+      <div><h1 id="title">LOOΠΔ TV</h1></div>
     </div>
-</div>
+    <div class="wrapper">
+      <div class="menu">
+        <div class="menuItem" id="latest">
+          <!--img id='latestImg' src="https://img.youtube.com/vi/AKopicTSCJ4/sddefault.jpg"--><span
+            class="menuName"
+          ></span>
+        </div>
+        <div class="menuItem" id="loona"><span class="menuName"></span></div>
+        <div class="menuItem" id="preDebut"><span class="menuName"></span></div>
+        <div class="menuItem" id="events"><span class="menuName"></span></div>
+      </div>
 
-</div>
+      <div class="debutContainer">
+        <div class="debutMenu">
+          <div class="debutMenuItem" id="butterfly">
+            <a href="./../debut/xx/" class="debutMenuName">[xx]</a>
+          </div>
+          <div class="debutMenuItem" id="hihigh">
+            <a href="./../debut/++" class="debutMenuName">[++]</a>
+          </div>
+        </div>
+      </div>
 
-<script src="preDebutMenu.js" type="text/javascript"></script>
-</body>
+      <div class="preContainer">
+        <h2>Solo Eras</h2>
+        <div class="preMenu">
+          <div class="preMenuItem" id="heejin">
+            <a href="./../members/heejin" class="preMenuName">HeeJin</a>
+          </div>
+          <div class="preMenuItem" id="hyunjin">
+            <a href="./../members/hyunjin" class="preMenuName">HyunJin</a>
+          </div>
+          <div class="preMenuItem" id="haseul">
+            <a href="./../members/haseul" class="preMenuName">HaSeul</a>
+          </div>
+          <div class="preMenuItem" id="yeojin">
+            <a href="./../members/yeojin" class="preMenuName">YeoJin</a>
+          </div>
+
+          <div class="preMenuItem" id="vivi">
+            <a href="./../members/vivi" class="preMenuName">ViVi</a>
+          </div>
+          <div class="preMenuItem" id="kimlip">
+            <a href="./../members/kimlip" class="preMenuName">Kim Lip</a>
+          </div>
+          <div class="preMenuItem" id="jinsoul">
+            <a href="./../members/jinsoul" class="preMenuName">JinSoul</a>
+          </div>
+          <div class="preMenuItem" id="choerry">
+            <a href="./../members/choerry" class="preMenuName">Choerry</a>
+          </div>
+
+          <div class="preMenuItem" id="yves">
+            <a href="./../members/yves" class="preMenuName">Yves</a>
+          </div>
+          <div class="preMenuItem" id="chuu">
+            <a href="./../members/chuu" class="preMenuName">Chuu</a>
+          </div>
+          <div class="preMenuItem" id="gowon">
+            <a href="./../members/gowon" class="preMenuName">Go Won</a>
+          </div>
+          <div class="preMenuItem" id="olivia">
+            <a href="./../members/olivia" class="preMenuName">Olivia Hye</a>
+          </div>
+        </div>
+
+        <h2>Subunits</h2>
+        <div class="preMenu preMenuSub">
+          <div class="preMenuItem preSubsItem" id="loona1-3">
+            <a href="./../subunits/1_3/" class="preMenuName preSubsName"
+              >LOOΠΔ ⅓</a
+            >
+          </div>
+          <div class="preMenuItem preSubsItem" id="oec">
+            <a href="./../subunits/oec" class="preMenuName preSubsName"
+              >ODD EYE CIRCLE</a
+            >
+          </div>
+          <div class="preMenuItem preSubsItem" id="yyxy">
+            <a href="./../subunits/yyxy/" class="preMenuName preSubsName"
+              >yyxy</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="eventContainer">
+        <div class="eventMenu">
+          <div class="eventMenuItem" id="studio">
+            <a href="./../events/studio" class="eventMenuName">LOONA STUDIO</a>
+          </div>
+          <div class="eventMenuItem" id="birth">
+            <a href="./../events/loonabirth" class="eventMenuName"
+              >LOONAbirth</a
+            >
+          </div>
+          <div class="eventMenuItem" id="lineUp">
+            <a href="./../events/lineUp" class="eventMenuName">Line&Up</a>
+          </div>
+          <div class="eventMenuItem" id="upLine">
+            <a href="./../events/upLine" class="eventMenuName">Up&Line</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="preDebutMenu.js" type="text/javascript"></script>
+  </body>
 </html>

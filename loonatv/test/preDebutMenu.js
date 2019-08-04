@@ -1,23 +1,26 @@
-$(document).ready(
-    function() {
-        // console.log('works');
+$(document).ready(function() {
+  // console.log('works');
 
-    // $('#id').click(() => {
-    //     console.log("Works")
-    //     $('.menu').css('display', 'grid');
-    //     $('.preContainer').css('display', 'none');
-    //     $('.eventContainer').css('display', 'none');
-    //     // $('.preContainer').css('display', 'none');
-    // });
+  // $('#id').click(() => {
+  //     console.log("Works")
+  //     $('.menu').css('display', 'grid');
+  //     $('.preContainer').css('display', 'none');
+  //     $('.eventContainer').css('display', 'none');
+  //     // $('.preContainer').css('display', 'none');
+  // });
 
-    $('#preDebut').click(() => {
-        $('.menu').css('display', 'none');
-        $('.preContainer').css('display', 'block');
-    });
+  $("#loona").click(() => {
+    $(".menu").css("display", "none");
+    $(".debutContainer").css("display", "block");
+  });
 
-    $('#events').click(() => {
-        $('.menu').css('display', 'none');
-        $('.eventContainer').css('display', 'block');
-    });
-    
+  $("#preDebut").click(() => {
+    $(".menu").css("display", "none");
+    $(".preContainer").css("display", "block");
+  });
+
+  $("#events").click(() => {
+    $(".menu").css("display", "none");
+    $(".eventContainer").css("display", "block");
+  });
 })();
