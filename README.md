@@ -8,7 +8,6 @@ It is a website that keeps track of LOOΠΔ posts and media online. Think of it 
 LOOΠΔ is South Korean Girl Group consisting of 12 members under the label Blockberry Creative.
 
 ## What does the website contain at the moment?
-
 As of writing this, I have covered up a lot of LOOΠΔ TV episodes from the past 2 years. This website is not complete as I am still quite new to web development. I am using this in order to learn web development languages.
 
 The updates will be slow for a while. 
