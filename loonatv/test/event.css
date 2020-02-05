@@ -1,109 +1,109 @@
 /*LOONA Events CSS*/
 
 .eventContainer {
-    display: none;
-    margin: 0 auto;
-} 
+  display: none;
+  margin: 0 auto;
+}
 
 .eventMenu {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
 }
 
 .eventMenuItem {
-    display: table;
-    height: 44vh;
-    width: 48vw;
-    background-repeat: no-repeat;
-	background-position: bottom 50% right 50%;
-    background-size: cover;
-    /* border: 2px solid black; */
-    /* border-radius: 18px; */
-    margin: 1%;
-    overflow: hidden;
+  display: table;
+  height: 44vh;
+  width: 48vw;
+  background-repeat: no-repeat;
+  background-position: bottom 50% right 50%;
+  background-size: cover;
+  /* border: 2px solid black; */
+  /* border-radius: 18px; */
+  margin: 1%;
+  overflow: hidden;
 }
 
 .eventMenuName {
-    display: table-cell;
-    vertical-align: middle;
-    height: inherit;
-    width: inherit;
-    font-size: 1.5em;
-    text-decoration: none;
-    color: white;
-    font-family: 'TingTong';
+  display: table-cell;
+  vertical-align: middle;
+  height: inherit;
+  width: inherit;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: white;
+  font-family: "TingTong";
 }
 
 .eventMenuName:hover {
-    background-color: rgba(0, 0, 0, 0.4);
-    transition: .4s ease;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: 0.4s ease;
 }
 
 #studio {
-    background-image: url('./img/events/studio.webp');
+  background-image: url("./img/events/studio.webp");
 }
-#studio a{
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2em;
+#studio a {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
 }
 
 #birth {
-    background-image: url('./img/events/birth.webp');
-    font-size: 2.5em;
+  background-image: url("./img/events/birth.webp");
+  font-size: 2.5em;
 }
 /* #birth span {
      text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; 
 } */
-#birth a:hover{
-    color: #7E50A0;
-    text-shadow: -1px 0 white, 0 1px #7E50A0, 1px 0 #7E50A0, 0 -1px white;
+#birth a:hover {
+  color: #7e50a0;
+  text-shadow: -1px 0 white, 0 1px #7e50a0, 1px 0 #7e50a0, 0 -1px white;
 }
 
 #upLine {
-    background-image: url('./img/events/upLine.webp');
-    font-size: 2.5em;
+  background-image: url("./img/events/upLine.webp");
+  font-size: 2.5em;
 }
-#upLine a:hover{
-    color: #FF0058;
+#upLine a:hover {
+  color: #ff0058;
 }
 
 #lineUp {
-    background-color: #E8E6E5;
-    background-image: url('./img/events/lineUp.webp');
-    background-size: 100%;
-    font-size: 2.5em;
+  background-color: #e8e6e5;
+  background-image: url("./img/events/lineUp.webp");
+  background-size: 100%;
+  font-size: 2.5em;
 }
 #lineUp a {
-    color: black;
+  color: black;
 }
-#lineUp a:hover{
-    color: #AF475F;
+#lineUp a:hover {
+  color: #af475f;
 }
 
 @media screen and (max-width: 745px) {
-    .eventMenuItem {
-        width: 45vw;
-    }
+  .eventMenuItem {
+    width: 45vw;
+  }
 }
 
 @media screen and (max-width: 700px) {
-    .eventMenu {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .eventMenuItem {
-        min-width: 80vw;
-    }
+  .eventMenu {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .eventMenuItem {
+    min-width: 80vw;
+  }
 }
 
 @media screen and (max-width: 360px) {
-    .eventMenuItem {
-        min-width: 90vw;
-        height: 35vh;
-    }
+  .eventMenuItem {
+    min-width: 90vw;
+    height: 35vh;
+  }
 
-    #birth {
-        font-size: 2em;
-    }
+  #birth {
+    font-size: 2em;
+  }
 }
